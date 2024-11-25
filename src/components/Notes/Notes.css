@@ -1,0 +1,9 @@
+.notes{
+    background-color: blue;
+    margin-top: 0px;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

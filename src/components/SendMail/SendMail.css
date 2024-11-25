@@ -1,0 +1,52 @@
+.sendMail{
+    background-color: #030b65;
+    margin-top: 0px;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.sendMail-holder{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    margin-top: 100px;
+    height: 400px;
+    
+}
+.to{
+    margin-top: 10px;
+}
+.to input{
+    height: 30px;
+    width: 100%;
+    border-radius: 9px;
+    border: transparent;
+    background-color: rgb(172, 185, 185);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.CC{
+    margin-top: 10px;
+}
+.CC textarea{
+    height: 30px;
+    width: 100%;
+}
+
+.select-hold{
+display: flex;
+justify-content: space-between;
+}
+.select-dropdown{
+    height: 30px;
+    width: 100%;
+}
+.subject{
+    margin-top: 10px;
+}
+.subject input{
+    height: 30px;
+    width: 100%;
+}

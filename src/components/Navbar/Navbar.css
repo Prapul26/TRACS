@@ -1,0 +1,125 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;  
+    justify-content: center;
+    background-color: white;
+    border-bottom: 0.7px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+    font-family:  "Ubuntu", sans-serif;
+
+  }
+  
+  .nav-links a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    color: #f0a500;
+  }
+  .list1:hover{
+    color: #f0a500;
+    cursor: pointer;
+  }
+  .list1 {
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 100;
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .list2{
+    font-family:  "Ubuntu", sans-serif;
+    font-weight: 100;
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .list2:hover{
+    color: #f0a500;
+    cursor: pointer;
+  }
+  .aboutdrop{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    margin-left: 450px;
+    width: 130px;
+  }
+  .aboutdrop ul {
+    list-style: none;
+ margin-left: -15px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+
+  }
+  .aboutdrop ul li{
+    border-bottom: 0.7px solid black;
+    margin-top: 5px;
+  }
+  .aboutdrop ul li:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    color: rgb(43, 32, 32);
+  }
+  .ldrop{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 820px;
+    margin-top: 170px;
+    width: 200px;
+text-align: center;
+    background-color: rgb(219, 219, 219);
+  }
+ .ldrop ul{
+  list-style: none;
+ margin-left: -20px;
+ }
+ .ldrop li{
+  margin-left: -20px;
+ }
+ .ldrop ul li:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+  color: rgb(43, 32, 32);
+}
+.ldrop Link{
+  color: inherit;
+  color: black;
+}
+  
+  @media (min-width: 601px) and (max-width: 1024px){
+.nav-container{
+  display: none;
+}
+  }
+  @media (max-width: 600px){
+    .nav-container{
+      display: none;
+    }
+  }
+  

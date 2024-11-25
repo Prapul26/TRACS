@@ -1,0 +1,44 @@
+.trainingContainer{
+    height: fit-content;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.trainiginput{
+    display: flex;
+    margin-left: 20px;
+    margin-right:20px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    height: 65px;
+    justify-content: space-around;
+}
+.trainiginput select{
+    height: 40px;
+}
+.trainiginput input{
+    height: 35px;
+    width: 40%;
+}
+.trainingCard{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:600px){
+    .trainiginput{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .trainiginput input{
+        width: 97.5%;
+        margin-bottom: 20px;
+    }
+    .trainiginput select{
+        margin-bottom: 20px;
+    
+    }
+}

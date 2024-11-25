@@ -1,0 +1,328 @@
+.m_u {
+    height: 200px;
+    background: linear-gradient(109.6deg, rgb(34, 118, 227) 11.2%, rgb(97, 150, 206) 51.2%, rgb(222, 120, 120) 98.6%);
+    text-align: center;
+
+    padding-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.m_u h1 {
+    color: white;
+}
+
+.meminput {
+    display: flex;
+
+}
+.pagenav{
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+}
+.memdata1 select{
+   
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(199, 197, 195);
+ 
+   
+}
+.memdata1 {
+   
+    margin-left: 30px;
+    display: flex;
+    margin-right: 30px;
+   justify-content: space-between;
+
+}
+
+.meminput input {
+    height: 25px;
+    width: 40%;
+    border-radius: 5px;
+    border: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.meminput2 {
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+.meminput2 select{
+    width: 40%;
+}
+
+.meminput3 {
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+.meminput3 select{
+    width: 40%;
+}
+.membutton {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.membutton button {
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: azure;
+    background-color: orange;
+    font-weight: 730;
+
+}
+.memdata{
+    height: fit-content;
+  box-shadow: 3px 6px 30px 8px rgb(102, 101, 101);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.memdata1{
+    padding: 20px;
+    border-bottom: 0.2px solid rgb(202, 200, 200);
+    
+   text-align: center;
+   
+}
+.memdata1 input{
+   margin-left: 20px;
+}
+.memcard{
+    height: fit-content;
+    width: 86%;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border:0.2px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.memdata{
+    margin-bottom: 40px;
+}
+.mempic{
+width: 33%;
+
+background-color: rgb(255, 255, 255);
+
+}
+.memd{
+width: 47%;
+
+background-color: white;
+}
+.memb{
+    width: 20%;
+   display: flex;
+   flex-direction: column;
+}
+.memd button{
+    margin-top: 10px;
+    background-color: rgb(26, 222, 202);
+    padding: 8px;
+    color: aliceblue;
+}
+.memimg{
+height: 150px;
+width: 80%;
+margin-top: 20px;
+margin-left: 20px;
+border: 1px solid rgb(215, 199, 199);
+}
+.memimg img{
+    height: 100%;
+    width: 100%;
+}
+.memname h3{
+    color: black;
+}
+.memcard ul{
+    list-style: none;
+    margin-left: -30px;
+
+}
+.memcard li{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.memb button{
+    margin-top: 10px;
+    background-color: rgb(137, 230, 149);
+    padding-left:15px;
+    padding-right: 15px;
+ margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.dropdown{
+   margin-top: 90px;
+   margin-left: 40px;
+  height: 60px;
+   display: flex;
+   flex-direction: column;
+}
+.memd h2{
+    font-weight: 800;
+}
+.mempro{
+    height: 70px;
+width: 70px;
+border: 5px solid rgb(10, 244, 135);
+border-radius: 100px;
+margin-top: -35px;
+margin-left:35px ;
+}
+.pagenav button{
+    margin-left: 5px;
+}
+.pagenav button:hover{
+    background-color: aqua;
+    color: black;
+}
+.memname{
+    text-align: center;
+}
+.memimg img{
+    height: 100%;
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .meminput3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .meminput2 select{
+        width: 80%;
+        margin-left: 10%;
+        height: 30px;
+        border-radius: 5px;
+        border: transparent;
+    }
+    .meminput3 select{
+        width: 80%;
+        height: 30px;
+        border-radius: 5px;
+        border: transparent;
+    }
+
+    .meminput2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meminput input {
+        height: 25px;
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .m_u {
+        height: 270px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .memdata{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .meminput {
+        flex-direction: column;
+        width: 200%;
+    }
+    .memcard {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .mempic{
+width: 80%;
+margin-left: 10%;
+    }
+.memb{
+width: 80%;
+margin-left: 10%;
+margin-bottom: 40px;
+}
+.memd{
+width: 80%;
+margin-left: 10%;
+}
+    .meminput3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meminput2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .meminput2 select{
+        width: 71%;
+        margin-left: 15%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: transparent;
+        height: 30px;
+    }
+    .meminput3 select{
+        width: 71%;
+        margin-left: 15%;
+        border-radius: 5px;
+        border: transparent;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .meminput input {
+        font-size: 20px;
+        align-items: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10px;
+
+    }
+
+    .m_u {
+        text-align: center;
+        height: 340px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .memdata{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

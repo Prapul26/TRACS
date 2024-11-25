@@ -1,0 +1,638 @@
+.H-container {
+  display: flex;
+  justify-content: center;
+  height: 15px;
+  padding: 20px;
+  align-items: center;
+  width: 60%;
+  margin-left: 5%;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-left: 15%;
+  font-size: 23px;
+  position: relative;
+  flex-wrap: wrap;
+  margin-left: -1000px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 23px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #4D4DFF, #8A00FF);
+  align-items: center;
+}
+
+.p-container {
+  display: flex;
+}
+
+.globe {
+  margin-top: 8px;
+  margin-left: -100px;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.profilePic {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.dropdown {
+  background-color: white;
+  position: absolute;
+  margin-top: 45px;
+  border: transparent;
+  border-radius: 10px;
+  border: 1px solid #c4c6d7;
+  margin-left: -110px;
+  width: 150px;
+}
+.om1 :hover{
+color:blue;
+}
+.om2 :hover{
+  color: black;
+}
+.dropdown:hover {
+  background-color: #c4c6d7;
+}
+
+.dropdown2 {
+  background-color: white;
+  position: absolute;
+  text-align: left;
+  margin-left: -40px;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 200px;
+  border: 1px solid #c4c6d7;
+}
+
+.dropdown2 ul li {
+  border-bottom: 1px solid #c4c6d7;
+  margin-left: -38px;
+  padding: 10px;
+}
+
+.dropdown2 ul li:hover {
+  background-color: #c4c6d7;
+}
+
+.mobile-Header {
+  display: none;
+}
+
+.social-media-holder {
+  display: flex;
+}
+
+.sd {
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 20%;
+  height: 30px;
+  margin-left: 40%;
+  margin-right: 50%;
+}
+
+.login-button button:hover,
+.reg-button button:hover {
+  color: black;
+}
+
+@media (max-width: 600px) {
+
+  .H-container,
+  .social-icons,
+  .p-container,
+  .dropdown,
+  .dropdown2 {
+    display: none;
+  }
+  .header-container {
+    background-color: white !important; /* Ensure it overrides any previous background settings */
+  }
+
+  .mobile-Header {
+
+    justify-content: space-around;
+    display: flex;
+    height: 70px;
+    background: linear-gradient(135deg, #4D4DFF, #8A00FF);
+
+    width: 100%;
+   
+    margin: 0px;
+    border-radius: 100px;
+
+  }
+
+  .header-container {
+    background-color: white;
+    display: math;
+  }
+
+  .mobile-Header img {
+    height: 50px;
+
+  }
+
+  .mob-logo {
+    margin-top: 9px;
+
+  }
+
+  .mob-globe {
+    margin-top: 19px;
+  }
+
+  .mob-three {
+    margin-top: 12px;
+    transition: 1s;
+   
+  }
+
+  .dropdown3 {
+    margin-top: 50px;
+    background-color: azure;
+    border-radius: 10px;
+    height: fit-content;
+    position: absolute;
+    margin-left: 120px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 160px;
+    border: 1px solid rgba(0, 0, 0, .1)
+  }
+
+  .login-button button {
+    width: 98%;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(240, 105, 16);
+    color: white;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-button {
+    margin-left: 2%;
+    padding: 10px;
+  }
+
+  .buttons-holder {
+
+    margin-top: 10px;
+  }
+
+  .reg-button {
+    margin-left: 2%;
+    padding: 10px;
+  }
+
+  .reg-button button {
+    width: 98%;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(240, 105, 16);
+    color: white;
+    font-size: large;
+  }
+
+  .infoPage {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+   
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 1000;
+    overflow-y: auto;
+   
+  }
+
+  .cross-holder {
+    padding: 10px;
+  
+    border-bottom: 1px solid rgb(168, 151, 126);
+  }
+
+  .home-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+    height: 25px;
+  }
+
+  .members-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+  }
+
+  .events-holder {
+    padding: 10px;
+    border-bottom:1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+  }
+
+  .Referral-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+   
+  }
+
+  .About-us-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: fit-content;
+  }
+
+  .cross-holder :hover,
+  .home-holder:hover,
+  .Referral-holder:hover,
+  .pricing-holder:hover,
+  .resouces-holder:hover,
+  .About-us-holder:hover,
+  .members-holder:hover,
+  .events-holder:hover {
+    background-color: #c4c6d7;
+  }
+
+  .pricing-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+  }
+
+  .resouces-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: fit-content;
+  }
+
+  .cx {
+    margin-left: 95%;
+  }
+
+  .home {
+    margin-top: -15px;
+  }
+
+  .members {
+    margin-top: -15px;
+  }
+
+  .events {
+    margin-top: -15px;
+  }
+
+  .referral {
+    margin-top: -15px;
+  }
+
+  .about {
+    margin-top: -15px;
+  }
+
+  .pricing {
+    margin-top: -15px;
+  }
+
+  .resources {
+    margin-top: -15px;
+  }
+}
+
+.aa {
+
+  margin-top: -35px;
+  margin-left: 95%;
+
+}
+
+.ra {
+  margin-top: -35px;
+  margin-left: 95%;
+}
+
+.ad {
+
+  width: 100%;
+  margin-left: -10px;
+  background-color: white;
+}
+
+.ad p:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.ad p {
+  margin-left: 10px;
+}
+
+.rd {
+  width: 100%;
+  margin-left: -10px;
+  background-color: white;
+}
+
+.rd p:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.rd p {
+  margin-left: 10px;
+}
+.social2-media-holder{
+  margin-top: 25px;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .header-container {
+    background-color: white !important; /* Ensure it overrides any previous background settings */
+  }
+  .H-container,
+  .social-icons,
+  .p-container,
+  .dropdown,
+  .dropdown2 {
+    display: none;
+  }
+
+  .mobile-Header {
+    justify-content: space-around;
+    display: flex;
+    height: 70px;
+    background: linear-gradient(135deg, #4D4DFF, #8A00FF);
+
+    width: 100%;
+    margin: 0px;
+    border-radius: 100px;
+  }
+
+  .header-container {
+    background-color: white;
+    display: math;
+  }
+
+  .mobile-Header img {
+    height: 50px;
+
+  }
+
+  .mob-logo {
+    margin-top: 9px;
+
+  }
+
+  .mob-globe {
+    margin-top: 19px;
+
+  }
+
+  .mob-three {
+    margin-top: 12px;
+  }
+
+  .dropdown3 {
+    margin-top: 50px;
+    background-color: azure;
+    border-radius: 10px;
+    height: fit-content;
+    position: absolute;
+    margin-left: 120px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 160px;
+    border: 1px solid rgba(0, 0, 0, .1)
+  }
+
+  .infoPage {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    transition: all 1s ease-in-out;
+    transform: translate();
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 1000;
+
+  }
+  .social2-media-holder{
+    margin-top: 30px;
+  }
+
+  .cross-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+  }
+
+  .home-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+    height: 25px;
+  }
+
+  .members-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+  }
+
+  .events-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+  }
+
+  .Referral-holder {
+    padding: 10px;
+    border-bottom:1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+  }
+
+  .About-us-holder {
+    padding: 10px;
+    border-bottom:1px solid rgba(0, 0, 0, .1);
+    height: fit-content;
+  }
+
+  .pricing-holder2 {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+
+  }
+
+  .resouces-holder {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: fit-content;
+  }
+
+  .cx {
+    margin-left: 95%;
+  }
+
+  .home {
+    margin-top: -15px;
+  }
+
+  .members {
+    margin-top: -15px;
+  }
+
+  .events {
+    margin-top: -15px;
+  }
+
+  .referral {
+    margin-top: -15px;
+  }
+
+  .about {
+    margin-top: -15px;
+  }
+
+  .pricing2 {
+    margin-top: -15px;
+
+  }
+
+  .resources {
+    margin-top: -15px;
+  }
+
+  .buttons-holder {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .login-button button {
+    width: 98%;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(240, 105, 16);
+    color: white;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-button {
+    margin-left: 2%;
+    padding: 10px;
+
+    width: 50%;
+  }
+
+  .reg-button {
+    margin-left: 2%;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .login-button button:hover,
+  .reg-button button:hover {
+    color: black;
+  }
+
+  .reg-button button {
+    width: 98%;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgb(240, 105, 16);
+    color: white;
+    font-size: large;
+  }
+
+  .social-media-holder {
+    display: flex;
+  }
+
+  .sd {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 20%;
+    height: 30px;
+    margin-left: 40%;
+    margin-right: 50%;
+  }
+
+  .cross-holder :hover,
+  .home-holder:hover,
+  .pricing-holder:hover,
+  .resouces-holder:hover,
+  .About-us-holder:hover,
+  .members-holder:hover,
+  .events-holder:hover {
+    background-color: #c4c6d7;
+  }
+
+  .aa {
+
+    margin-top: -35px;
+    margin-left: 95%;
+
+  }
+
+  .ra {
+    margin-top: -35px;
+    margin-left: 95%;
+  }
+
+  .ad {
+
+    width: 100%;
+    margin-left: -10px;
+    background-color: white;
+  }
+
+  .ad p:hover {
+    background-color: rgb(241, 241, 241);
+  }
+
+  .ad p {
+    margin-left: 10px;
+  }
+
+  .rd {
+    width: 100%;
+    margin-left: -10px;
+    background-color: white;
+  }
+
+  .rd p:hover {
+    background-color: rgb(241, 241, 241);
+  }
+
+  .rd p {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,132 @@
+.blog{
+    display: flex;
+    text-align: center;
+    color: rgb(140, 126, 126);
+}
+.blogContainer{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 60px;
+}
+.memberBlog{
+    width: 50%;
+    color: white;
+    background-color: rgb(30, 33, 225);
+    border: 1px solid black;
+}
+.h7Blog{
+    width: 50%;
+    color: rgb(140, 126, 126);
+    background-color: rgb(30, 33, 225);
+    border: 1px solid black;
+}
+.blog h1{
+    color: rgb(140, 126, 126);
+}
+.membersCard1{
+    display: flex;
+width: 100%;
+border: 1px solid black;
+margin-bottom: 40px;
+border-radius: 20px;
+}
+.membersCard2{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+margin-bottom: 40px;
+border-radius: 20px;
+}
+.m111 img{
+width: 40%;
+height: 200px;
+width: 200px;
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.m211 img{
+    width: 100%;
+    height: 200px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.m122{
+    margin-left: 90px;
+}
+.m222{
+    margin-left: 75px;
+}
+.h7 iframe{
+    width: 100%;
+    height: 700px;
+}
+.membersCard1:hover{
+    cursor: pointer;
+}
+.membersCard2:hover{
+    cursor: pointer;
+}
+.membersCard1 h1:hover{
+    cursor: pointer;
+}
+.membersCard2 h1:hover{
+    cursor: pointer;
+}
+.memberBlog {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.h7Blog{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blogHerp{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    margin-top: -20px;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.blogHerp h1{
+    color: white;
+    padding-top: 28px;
+}
+.memberBlog h1{
+    color: white;
+}
+.h7Blog h1{
+    color: white;
+}
+
+@media(max-width:600px){
+    .memberBlog h1{
+        font-size: 20px;
+    }
+    .h7Blog h1{
+        font-size: 20px;
+    }
+    .membersCard1{
+        display: flex;
+        flex-direction: column;
+    }
+    .membersCard2{
+        display: flex;
+        flex-direction: column;
+    }
+    .m111 img{
+        width: 300px;
+    }
+    .m122{
+        margin-left: 3%;
+    }
+    .m211 img{
+        width: 300px;
+    }
+    .m222 {
+        margin-left: 2%;
+    }
+}

@@ -1,0 +1,127 @@
+.aboutCOntainer{
+    width: 70%;
+    height:fit-content;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url(../../assets/bg7.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.15);
+   padding-top: 10px;
+   
+    border-radius: 20px;
+}
+.aboutCOntainer p{
+    color: black;
+}
+.abd1{
+    text-align: center;
+}
+.abd5 h1{
+    color:  rgb(16, 84, 108) ;
+}
+.abd6 h1{
+    color:  rgb(16, 84, 108) ;
+}
+.abd1 h1{
+    color:  rgb(16, 84, 108) ;
+}
+.abd2 h1{
+    color:  rgb(16, 84, 108) ;
+}
+.abd4 h1{
+    color:  rgb(16, 84, 108) ;
+}
+.abd3 h1{
+    color:  rgb(16, 84, 108) ;
+}
+.aboutCOntainer h3{
+    color: orange;
+    font-weight: 800;
+}
+.ablue{
+    background-color: blue;
+     background-image: url(../../assets/bg4.jpg);
+    height: 70px;
+    margin-top: 0px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.ooop{
+   background-image: url(../../assets/bg16.jpg);
+   background-size: 10045px;
+}
+.ablue h1{
+    color: white;
+}
+.abd4{
+    display: flex;
+    text-align: center;
+}
+.abd41{
+width: 50%;
+
+padding: 10px;
+}
+.abd42{
+    width: 50%;
+}
+.abd3{
+    display: flex;
+    text-align: center;
+}
+.abd31{
+width: 50%;
+}
+.abd32{
+    width: 50%;
+   
+    text-align: center;
+}
+.abd32 p{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.abd5{
+    display: flex;
+}
+.abd51{
+width: 50%;
+}
+.abd52{
+    width: 50%;
+    
+  
+    padding: 10px;
+}
+.abd6{
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    
+      }
+      @media (max-width: 600px){
+        .abd3{
+display: flex;
+flex-direction: column;
+width: 100%;
+        }
+        .abd31,.abd32,.abd41,.abd42,.abd51,.abd52{width: 100%;
+
+        }
+        .abd4{
+            display: flex;
+            flex-direction: column;
+        }
+        .abd5{
+            display: flex;
+            flex-direction: column;
+        }
+      }
+      

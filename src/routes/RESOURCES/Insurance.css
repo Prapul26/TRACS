@@ -1,0 +1,83 @@
+.testingContainer{
+    height: fit-content;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 60px;
+}
+.testingImg {
+    margin-top: 30px;
+}
+
+.testingcolor{
+    background-color: rgba(0, 200, 255, 0.808);
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.testingComment{
+    width: 60%;
+    height: fit-content;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.testingComment1{
+    padding-top: 40px;
+    padding-left: 20px;
+    height: fit-content;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: antiquewhite;
+}
+.commentData{
+    padding: 20px;
+}
+.inputCommnet{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.comment input{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.colorop{
+    display: flex;
+
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .inputCommnet{
+        flex-direction: column;
+        
+    }
+    .inputCommnet input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .testingComment{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    .inputCommnet{
+        flex-direction: column;
+        
+    }
+    .inputCommnet input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .testingComment{
+        width: 100%;
+    }
+}
