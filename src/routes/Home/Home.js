@@ -32,7 +32,7 @@ const Home = () => {
                     <button>Search</button>
                 </div>
                 <div className='network-container'>
-                    <Link to='/memberDetails'><button>Manage Your Connections</button></Link>
+                    <Link to='/members'><button>Manage Your Connections</button></Link>
                     <button>Networking Meetings</button>
                 </div>
 

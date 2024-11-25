@@ -23,6 +23,7 @@ import Video from './components/Video/Video';
 import Testing from './routes/RESOURCES/Testing';
 import Insurance from './routes/RESOURCES/Insurance';
 import Events from './routes/EVENTS/Events';
+import UserHeader from './User/UserHeader/UserHeader';
 
 const App = () => {
   const [isLogin,setIsLogin]=useState(true);
@@ -50,6 +51,7 @@ const App = () => {
         <Route path='/testing' element={<Testing/>}/>
         <Route path='/insurance' element={<Insurance/>}/>
         <Route path='/events'element={<Events/>}/>
+        <Route path='/userHeader' element={<UserHeader/>} />
       </Routes>
     </Router>
   );
