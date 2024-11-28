@@ -13,7 +13,7 @@ const Login = ({ switchToRegister }) => {
         e.preventDefault();
 
         try {
-            const response = await fetch('https://tracsrj.apttests.com/api/login', {
+            const response = await fetch(`${process.env.REACT_APP_LOGIN_PAGE}/api/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -1,0 +1,33 @@
+.membeershipContainer{
+    background-color: rgb(172, 215, 253);
+    width: 50%;
+   margin-top: 40px;
+padding: 20px;
+margin-left: 25%;
+    position:static;
+
+    overflow:auto;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px 10px rgb(211, 206, 206);
+    overflow-x: inherit;
+}
+.membeershipContainer button{
+    background-color: rgb(32, 221, 57);
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+}
+.tableh1{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.tableh1 h1{
+    color: #000;
+}
+
+@media (max-width:600px){
+    .membeershipContainer{
+        width: 80%;
+        margin-left: 10%;
+    }
+}

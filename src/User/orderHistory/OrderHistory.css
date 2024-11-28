@@ -1,0 +1,52 @@
+.OrderHistoryContainer{
+    padding: 20px;
+  
+}
+.oh1{
+    display: flex;
+    padding: 10px;
+    background-color: antiquewhite;
+   justify-content: right;
+}
+.oh3{
+    display: flex;
+}
+.oh1 h3{
+    color: black;
+}
+.oh2{
+    align-items: start;
+    text-align: left;
+    margin-top: -70px;
+    margin-left: 20px;
+    
+}
+.oh2 h3{
+    color: black;
+}
+.oh3{
+    align-items: end;
+   
+
+} .ordtable{
+    background-color: white;
+ }
+    
+.OrderHistoryContainer h3{
+    cursor: pointer;
+
+}
+.orderBack{
+margin-left: 89%;
+margin-top: 55px;
+margin-bottom: 20px;
+}
+.orderBack button{
+    padding: 15px;
+    background-color: rgb(33, 33, 177);
+    color: white;
+    font-weight: 800;
+}
+.ordtable{
+    padding: 10px;
+}

@@ -22,6 +22,16 @@
     width: 400px;
     background-color: aliceblue;
 margin-left: 0%;
+background-color: rgb(32, 30, 28);
+position: relative;
+}
+.userHeaderNav h3{
+    color: white;
+    cursor: pointer;
+   
+}
+.userHeaderNav h3:hover{
+    color: rgb(121, 38, 223);
 }
 .navHome{
     text-align: center;
@@ -50,5 +60,7 @@ margin-left: 0%;
     .userHeaderNav{
         margin-top: 90px;
     }
+    
+
     
 }

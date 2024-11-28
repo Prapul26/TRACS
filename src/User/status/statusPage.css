@@ -1,0 +1,13 @@
+.status-page-container{
+    padding: 20px;
+    margin-top: 20px;
+}
+.container-status button{
+    margin-left: 20px;
+}
+.des1{
+    padding: 10px;
+}
+.cs1{
+    display: flex;
+}

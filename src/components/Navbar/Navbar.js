@@ -24,7 +24,7 @@ const Navbar = () => {
         <li className="list1"onClick={toggleDropdown} style={{fontWeight:'500'}} >ABOUT US</li>
        
         <li><Link to='/pricing'>PRICING</Link></li>
-        <li onMouseEnter={toggleDropdown2}className='list2'style={{fontWeight:'500'}}> RESOURCES</li>
+        <li onClick={toggleDropdown2}className='list2'style={{fontWeight:'500'}}> RESOURCES</li>
       </ul>
       {
           dropdown && (

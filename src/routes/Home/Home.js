@@ -45,7 +45,7 @@ const Home = () => {
                     <div className='hd1-details'>
                         <h1>Empowering Businesses,</h1>
                         <h1>Elevating Connections</h1>
-                        <button>Join Now</button>
+                       <Link to='/myMembership'><button>Join Now</button></Link> 
                     </div>
                 </div>
                 <div className='line-1'>

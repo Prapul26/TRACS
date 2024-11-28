@@ -39,7 +39,7 @@ const MemberDetails = () => {
   useEffect(()=>{
 const fetchData=async()=>{
   try{
-    const response=await axios.get('https://tracsrj.apttests.com/api/listings',{params:{memberId:1577}});
+    const response=await axios.get(`${process.env.REACT_APP_MEMBERS_DETAILS}/api/listings`,{params:{memberId:process.env.REACT_APP_MEMBER_ID }});
  if(response.data.success){
   setData(response.data.data);
  }else{
@@ -76,7 +76,7 @@ const fetchData=async()=>{
       <Navbar />
 
       {data  && (<div className='details-container' >
-        <button style={{ backgroundColor: " #4D4DFF", borderRadius: "30px", border: "transparent" }}><span><TiArrowBackOutline color='white' size={35} /></span> </button>
+        <button style={{ backgroundColor: " #4D4DFF", borderRadius: "30px", border: "transparent" }}><span><Link to='/home'><TiArrowBackOutline color='white' size={35} /></Link></span> </button>
         <div className='pic1-container'>
           <img style={{ opacity: "none" }} src={data.photos} alt='Member' className='member-image' />
         </div>
