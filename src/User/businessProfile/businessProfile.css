@@ -1,0 +1,72 @@
+.businessProfile-container button{
+    padding: 10px;
+    background-color: blue;
+    font-weight: 600;
+    color: white;
+margin-top: 20px;
+
+margin-left: 76%;
+margin-right: 10%;
+}
+.businessProfile-container{
+    background-color:rgb(161, 204, 241);
+height: 722px;
+}
+.businessStatus{
+    display: flex;
+}
+.businessStatus-container{
+    padding: 20px;
+    background-color:#eeecec;
+    margin: 20px;
+}
+.businessStatus h3{
+    color: black;
+
+}
+.active1{
+    display: flex;
+}
+.active2{
+    display: flex;
+}
+.circle1{
+margin-top: 20px;
+margin-left: 10px;
+background-color: rgb(0, 255, 68);
+height: 20px;
+width: 20px;
+border-radius: 10px;
+margin-right: 20px;
+
+}
+.circle1 p{
+color: white;
+font-weight: 600;
+margin-top: 0px;
+margin-left: 4.3px;
+}
+.circle2{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(255, 132, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    }
+    .circle2 p{
+        color: white;
+        font-weight: 600;
+        margin-top: 0px;
+        margin-left: 4.5px;
+        }
+        .borderTop {
+            border-top: 2px solid black;
+          }
+          .businessStatus{
+            border-bottom: 1px solid rgb(84, 81, 81);
+          }
+          .statusDetails h1{
+            color: red;
+          }

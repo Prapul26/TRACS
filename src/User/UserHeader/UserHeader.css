@@ -1,6 +1,6 @@
 .userHeaderContainer{
     height: 70px;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #00FFFF, #007FFF);
     width: 100%;
     display: flex;
    border-bottom: 1px solid black;
@@ -11,7 +11,27 @@
 .userName{
     margin-left: 70%;
     margin-top: 20px;
-    position: fixed;
+    display: flex;
+    position: absolute;
+    
+}
+.userName img{
+    height: 40px;
+    width: 40px;
+    margin-top: -5px;
+    border-radius: 7px;
+}
+.naotesContainer{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgb(47, 48, 48);
+   
+}
+.naotesContainer h3{
+    color: black;
+}
+.userName h3{
+    margin-left: 10px;
+    margin-top: 0px;
 }
 .arrow{
     margin-left:20px;
@@ -47,18 +67,24 @@ position: relative;
     padding-top: 0px;
 }
 .nav1 :hover,.nav2 :hover,.nav3 :hover,.nav4 :hover,.nav5 :hover,.nav6 :hover,.nav7 :hover,.nav8 :hover,.nav9 :hover,.nav10 :hover,.nav11 :hover{
-    background: rgb(195, 195, 195);
+}
+.nav4{
+    display: flex;
+    justify-content: space-between;
+    padding-right:10px ;
 }
 @media (max-width:600px){
     .userName{
-        margin-top: 50px;
-        
+        margin-top: 10px;
+        margin-left: 50%;
+    position: absolute;
     }
     .userHeaderContainer{
         height: 90px;
     }
     .userHeaderNav{
         margin-top: 90px;
+        width: 100%;
     }
     
 

@@ -1,0 +1,36 @@
+.makeNotes-container{
+    height: 100vh;
+    background-color:rgb(161, 204, 241);
+}
+
+.backButton-1 {
+margin-top: 40px;
+margin-left: 40px;
+}
+.backButton-1 button{
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+.makeNotes-holder{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.makeNotesH1{
+    border-bottom: 1px solid black;
+}
+.makeNotesH1 h3{
+    color: black;
+    font-style: oblique;
+    font-weight: 700;
+}
+.makeNotes-form select{
+    height: 35px;
+    width: 80%;
+}
+.quill{
+    height: 400px;
+    width: 400px;
+}

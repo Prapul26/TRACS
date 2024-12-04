@@ -72,7 +72,7 @@ const Header = () => {
         {isOpen2 && (
           <div className='dropdown2'>
             <ul style={{ listStyle: "none" }}>
-              <li>My Profile</li>
+              <Link to='/myMembership'><li>My Profile</li></Link>
               <li>Manage Calendar</li>
               <li>My Notes</li>
               <li>Messages</li>

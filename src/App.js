@@ -28,39 +28,50 @@ import MyMembership from './User/MyMembership/myMembership';
 import Profile from './User/MyProfile/Profile';
 import OrderHistory from './User/orderHistory/OrderHistory';
 import StatusPage from './User/status/statusPage';
+import BusinessProfile from './User/businessProfile/businessProfile';
+import Ex1 from './Example/ex1';
+import MyNotes from './User/Notes/MyNotes';
+import NotesTemplate from './User/Notes/NotesTemplate';
+import MakeNotes from './User/MakeNotes/MakeNotes';
+
 
 
 const App = () => {
-  const [isLogin,setIsLogin]=useState(true);
+  const [isLogin, setIsLogin] = useState(true);
   return (
     <Router>
       <Routes>
-        <Route path='/' element={isLogin ? <Login switchToRegister={() => setIsLogin(false)} /> : <Register switchToLogin={() => setIsLogin(true)} />}   />
-        <Route path='/register'  element={<Register/>}/>
+        <Route path='/' element={isLogin ? <Login switchToRegister={() => setIsLogin(false)} /> : <Register switchToLogin={() => setIsLogin(true)} />} />
+        <Route path='/register' element={<Register />} />
         <Route path="/memberDetails" element={<MemberDetails />} />
         <Route path="/schedule" element={<Schedule />} /> {/* New route for scheduling */}
-        <Route path='/Notes' element={<Notes/>}/>
-        <Route path='/sendMail' element={<SendMail/>}/>
-        <Route path='/home' element={<Home />}/>
-        <Route path='/pricing' element={<Pricing/>}/>
-        <Route path='/payment' element={<Payment/>}/>
-        <Route path='/about' element={<About_us />}/>
-        <Route path='/contact' element={<Contact />}/>
-        <Route path='/partner' element={<Partner/>}/>
-        <Route path='/members' element={<Members/>}/>
-        <Route path='/referral' element={<ReferralSupport/>}/>
-        <Route path='/blog' element={<Blog/>}/>
-        <Route path='/training'element={<Training/>}/>
-        <Route path='/help' element={<Help/>}/>
-        <Route path='/video/:id' element={<Video/>}/>
-        <Route path='/testing' element={<Testing/>}/>
-        <Route path='/insurance' element={<Insurance/>}/>
-        <Route path='/events'element={<Events/>}/>
-        <Route path='/userHeader' element={<UserHeader/>} />
-        <Route path='/myMembership' element={<MyMembership/>}/>
-       <Route path='/profile' element={<Profile/>}/>
-       <Route path='/orderHistory' element={<OrderHistory/>}/>
-       <Route path='/statusPage' element={<StatusPage/>}/>
+        <Route path='/Notes' element={<Notes />} />
+        <Route path='/sendMail' element={<SendMail />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/pricing' element={<Pricing />} />
+        <Route path='/payment' element={<Payment />} />
+        <Route path='/about' element={<About_us />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/partner' element={<Partner />} />
+        <Route path='/members' element={<Members />} />
+        <Route path='/referral' element={<ReferralSupport />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/training' element={<Training />} />
+        <Route path='/help' element={<Help />} />
+        <Route path='/video/:id' element={<Video />} />
+        <Route path='/testing' element={<Testing />} />
+        <Route path='/insurance' element={<Insurance />} />
+        <Route path='/events' element={<Events />} />
+        <Route path='/userHeader' element={<UserHeader />} />
+        <Route path='/myMembership' element={<MyMembership />} />
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/orderHistory' element={<OrderHistory />} />
+        <Route path='/statusPage' element={<StatusPage />} />
+        <Route path='/businessProfile' element={<BusinessProfile />} />
+        <Route path='/ex1' element={<Ex1 />} />
+        <Route path='/myNotes' element={<MyNotes />} />
+        <Route path='/notesTemplate' element={<NotesTemplate />} />
+        <Route path='/makeNotes' element={<MakeNotes />} />
       </Routes>
     </Router>
   );

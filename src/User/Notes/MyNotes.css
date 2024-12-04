@@ -1,0 +1,107 @@
+.notesNav{
+    margin: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: flex;
+}
+.myNotesContainer{
+    background-color:rgb(161, 204, 241);
+    height: 100vh;
+}
+.noteshover1{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    padding-top:80px ;
+    justify-content: space-between;
+}
+.searchGO{
+    display: flex;
+}
+.selectNotes{
+    display: flex;
+}
+.selectNotes label{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.myNotes-holder{
+    background-color:#eeecec;
+    margin: 20px;
+
+
+}
+.noteshover1 input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+.noteshover1 button{
+    width: 80px;
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+}
+.noteshover1 select{
+    height: 40px;
+    width: 250px;
+}
+.button1{
+    margin-top: 40px;
+    margin-left: 78%;
+
+    margin-right: 10%;
+    
+}
+.button1 button{
+    background-color: orange;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+}
+.tablenotes{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.tablenotes button{
+    padding: 12px;
+    background-color: blue;
+    margin-left: 80%;
+    color: white;
+    font-weight: 700;
+    margin-right: 10%;
+    width: 100px;
+    margin-bottom: 10px;
+}
+@media(max-width:600px){
+    .noteshover1{
+        display: flex;
+        flex-direction: column;
+    }
+    .searchGO{
+       
+        margin-top: 20px;
+    }
+    .noteshover1 select{
+        margin-top: 20px;
+    }
+    .noteshover1 label{
+        margin-top: 30px;
+    }
+    .button1 {
+        margin-left: 60%;
+        margin-right: 10%;
+    }
+    .noteshover1 input{
+        width: 70%;
+    }
+    .noteshover1 select{
+        width: 70%;
+    }
+}

@@ -1,0 +1,139 @@
+.profileNav{
+    display: flex;
+    padding: 10px;
+    background-color:#eeecec;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.profile-cc{
+    background-color:rgb(161, 204, 241);
+}
+.proh3 h3{
+color: black;
+}
+.Hedh3{
+    display: flex;
+   
+}
+.Hedh3 h3{
+    color: black;
+}
+.profileNav span{
+    font-size: 55px;
+    margin-top: -25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.profile-form{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    
+    padding: 10px;
+    background-color:#eeecec;
+    margin-bottom: 40px;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.profile-details input{
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 10px;
+}
+.profile-details label{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.profile-details textarea{
+    height: 100px;
+}
+.profile-img{
+    background-color: aliceblue;
+    height: 300px;
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-details button{
+    margin-top: 20px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+    justify-content: center;
+    margin-left: 40%;
+}
+.profile-img img{
+    height: 100%;
+    width: 100%;
+}
+.profile-img button{
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+    margin-top: -300px;
+}
+.pic4Holder{
+    margin-top: -150px;
+}
+.profilePassword{
+    background-color: #eeecec;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.profilePassword label{
+    margin-top: 10px;
+    font-weight: 600;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.profilePassword input{
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.profilePassword button{
+    width: 130px;
+    background-color: orange;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+}
+@media(max-width:600px){
+    .profile-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+.profile-details{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.profile-details button{
+    margin-left: 35%;
+}
+}
