@@ -1,0 +1,18 @@
+.emailTemplate-container{
+    background-color:rgb(161, 204, 241);
+    height: 100vh;
+}
+.emailTemplate-holder{
+    margin: 20px;
+ background-color:#eeecec;
+}
+.emailTemp-button{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.emailTemp-button button{
+    padding: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+}

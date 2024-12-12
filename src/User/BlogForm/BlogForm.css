@@ -1,0 +1,43 @@
+.blogForm-Holder{
+    margin: 20px;
+    padding: 20px;
+   
+    background-color:#eeecec;
+}
+.BlogForm{
+    display: flex;
+    flex-direction: column;
+}
+.blogForm-container{
+      background-color:rgb(161, 204, 241);
+      height: 100vh;
+}
+.blogBack button{
+    background-color: blue;
+    padding: 12px;
+color: white;
+font-weight: 700;
+}
+.BlogForm form label{
+    margin-top: 10px;
+}
+.BlogForm form input{
+    margin-top: 10px;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+}
+.BlogForm form textarea{
+    margin-top: 10px;
+    width: 80%;
+    height: 70px;
+}
+.BlogForm form button{
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    justify-items: center;
+    align-items: center;
+    padding: 12px;
+}

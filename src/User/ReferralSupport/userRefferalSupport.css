@@ -1,0 +1,53 @@
+.crf-button{
+    margin-left: 20px;
+    margin-top: 25px;
+   
+}
+.crf-button button{
+     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+.crf-container{
+    margin-bottom: 0%;
+    background-color:rgb(161, 204, 241);
+}
+.crf-holder{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(239, 244, 249);
+    margin: 20px;
+}
+.crf-h1{
+border-bottom: 1px solid black
+;
+}
+.crf-holder label{
+    margin-top: 20px;
+
+}
+.crf-holder input{
+    margin-top: 20px;
+    height: 35px;
+}
+.crf-holder select{
+    margin-top: 20px;
+    height: 38px;
+
+}
+.crf-holder textarea{
+    margin-top: 20px;
+    height: 80px;
+}
+.crf-holder button{
+    margin-top: 40px;
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    color: white;
+}

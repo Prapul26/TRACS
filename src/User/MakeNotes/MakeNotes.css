@@ -1,6 +1,7 @@
 .makeNotes-container{
-    height: 100vh;
+    height: 100%;
     background-color:rgb(161, 204, 241);
+    margin-bottom: 0px;
 }
 
 .backButton-1 {
@@ -33,4 +34,14 @@ margin-left: 40px;
 .quill{
     height: 400px;
     width: 400px;
+}
+.makeNotes-holder textarea{
+width: 78%;
+height: 90px;
+}
+.makeNotes-holder button{
+    margin-top: 40px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
 }

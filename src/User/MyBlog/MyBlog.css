@@ -1,0 +1,19 @@
+.MyBlog-Container{
+    background-color:rgb(161, 204, 241);
+    height: 100vh;
+}
+.MyBlog-holder{
+margin: 20px;
+ background-color:#eeecec;
+}
+.MyBlod-Button {
+    margin-left: 75%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+.MyBlod-Button button{
+    background-color: blue;
+color: white;
+font-weight: 700;
+padding: 12px;
+}

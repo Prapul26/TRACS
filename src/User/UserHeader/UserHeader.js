@@ -7,7 +7,15 @@ import { Link } from 'react-router-dom';
 import { BiSolidUpArrow } from "react-icons/bi";
  const UserHeader = () => {
     const[nav ,showNav]=useState(false);
+    const[messages,showMessages]=useState(false);
     const[notes,showNotes]=useState(false);
+    const [bookings,showBookings]=useState(false);
+    const handelBookings=()=>{
+      showBookings(!bookings)
+    }
+    const handelMessages=()=>{
+      showMessages(!messages);
+    }
     const handleNotes=()=>{
       showNotes(!notes);
     }
@@ -31,11 +39,23 @@ showNav(!nav);
 <Link to='/notesTemplate'><h3>Notes Templates</h3></Link>
       </div>
    }
-    <div  className='nav5'><h3>Referral Support</h3></div>
-    <div className='nav6'><h3>My Blog</h3></div> 
-    <div className='nav7'><h3>Emial Template</h3></div>
-    <div className='nav8'><h3>Messages</h3></div>
-    <div className='nav9'><h3>Manage Calender</h3></div>
+  <Link to='/referralSupportNav'> <div  className='nav5'><h3>Referral Support</h3></div></Link> 
+    <div className='nav6'><Link to='/myBlog'><h3>My Blog</h3></Link></div> 
+    <div className='nav7'><Link to='/emailTemplate'><h3>Email Template</h3></Link></div>
+    <div className='nav8' onClick={handelMessages}><h3>Messages </h3>{messages ? <BiSolidUpArrow color='white'style={{marginTop:"22px"}} />:<BiSolidDownArrow Arrow color='white' style={{ marginTop: "22px" }} />}</div>
+    {
+      messages && <div className='messContainer'>
+      <Link to='/inbox'><h3>Inbox</h3></Link>  
+        <Link to='/sentMail'><h3>Sent Mails</h3></Link>
+</div>    }
+    <div className='nav9' onClick={handelBookings}><h3>Manage Calender</h3>{bookings ?<BiSolidUpArrow color='white'style={{marginTop:"22px"}} />:<BiSolidDownArrow Arrow color='white' style={{ marginTop: "22px" }} />}</div>
+    {
+      bookings && <div className='booking'>
+      <Link to='/myBookings'> <h3>My Bookings</h3></Link> 
+      <Link to='/bookingsByOthers'><h3>Bookings By Other</h3></Link>  
+       <Link to='/setupCalender'><h3>Setup TRACS Calender</h3></Link> 
+      </div>
+    }
     <div className='nav10'><h3>Reviews</h3></div>
     <div className='nav11'><h3>Logout</h3></div>
 </div>

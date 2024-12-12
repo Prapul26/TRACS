@@ -29,6 +29,18 @@
 .naotesContainer h3{
     color: black;
 }
+.messContainer{
+    color: black;
+    border-bottom: 1px solid white;
+}
+.nav9{
+    display: flex;
+    justify-content: space-between;
+    padding-right:10px ;
+}
+.booking{
+   border-bottom: 1px solid rgb(254, 254, 254);
+}
 .userName h3{
     margin-left: 10px;
     margin-top: 0px;
@@ -69,6 +81,11 @@ position: relative;
 .nav1 :hover,.nav2 :hover,.nav3 :hover,.nav4 :hover,.nav5 :hover,.nav6 :hover,.nav7 :hover,.nav8 :hover,.nav9 :hover,.nav10 :hover,.nav11 :hover{
 }
 .nav4{
+    display: flex;
+    justify-content: space-between;
+    padding-right:10px ;
+}
+.nav8{
     display: flex;
     justify-content: space-between;
     padding-right:10px ;

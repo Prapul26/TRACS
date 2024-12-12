@@ -33,6 +33,17 @@ import Ex1 from './Example/ex1';
 import MyNotes from './User/Notes/MyNotes';
 import NotesTemplate from './User/Notes/NotesTemplate';
 import MakeNotes from './User/MakeNotes/MakeNotes';
+import UserRefferalSupport from './User/ReferralSupport/userRefferalSupport';
+import ReferralSupportNav from './User/ReferralSupport/ReferralSupportNav';
+import MyBlog from './User/MyBlog/MyBlog';
+import BlogForm from './User/BlogForm/BlogForm';
+import EmailTemplate from './User/EmailTemplate/EmailTemplate';
+import AddEmailTemplate from './User/EmailTemplate/AddEmailTemplate';
+import Inbox from './User/Messages/Inbox';
+import SentMails from './User/Messages/SentMail';
+import BookingsByOther from './User/ManageCalender/BookingsByOther';
+import MyBookings from './User/ManageCalender/MyBookings';
+import SetupCalender from './User/ManageCalender/SetupCalender';
 
 
 
@@ -72,6 +83,18 @@ const App = () => {
         <Route path='/myNotes' element={<MyNotes />} />
         <Route path='/notesTemplate' element={<NotesTemplate />} />
         <Route path='/makeNotes' element={<MakeNotes />} />
+        <Route path='/userReferralSupport' element={<UserRefferalSupport/>}/>
+        <Route path='/referralSupportNav' element={<ReferralSupportNav/>}/>
+        <Route path='/myBlog' element={<MyBlog/>}/>
+        <Route path='/blogForm' element={<BlogForm/>}/>
+        <Route path='/emailTemplate' element={<EmailTemplate/>}/>
+        <Route path='/addTemplate' element={<AddEmailTemplate/>}/>
+        <Route path='/inbox' element={<Inbox/>}/>
+        <Route path='/sentMail' element={<SentMails/>}/>
+        <Route path='/bookingsByOthers' element={<BookingsByOther/>} />
+        <Route path='/myBookings' element={<MyBookings/>}/>
+        <Route path='/setupCalender' element={<SetupCalender/>}/>
+
       </Routes>
     </Router>
   );

@@ -1,0 +1,27 @@
+.Inbox-holder{
+margin: 20px;
+display: flex;
+padding: 20px;
+background-color:#eeecec;
+
+}
+.subject{
+width: 33.3%;
+background-color: rgb(172, 170, 167);
+text-align: center;
+}
+.from{
+    width: 33.3%;
+    text-align: center;
+
+}
+.timeStamp{
+    width: 33.3%;
+    text-align: center;
+
+    background-color: rgb(172, 170, 167);
+}
+.Inbox-container{
+    background-color:rgb(161, 204, 241);
+height: 100vh;
+}

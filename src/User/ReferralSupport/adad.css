@@ -1,0 +1,24 @@
+.refsupnav{
+    background-color:rgb(161, 204, 241);
+    
+}
+.refsupnav-holder{
+    margin: 20px;
+    padding: 20px;
+    background-color:#eeecec;
+}
+
+.tdead{
+    height: 20px;
+    background-color: aquamarine;
+}
+.tdbutton {
+   
+  
+    margin-bottom: 20px;
+}
+.tdbutton button{
+    background-color: orange;
+    padding: 12px;
+    color: white;
+}

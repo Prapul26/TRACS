@@ -1,0 +1,101 @@
+.MyBookings-holder{
+    margin: 20px;
+    padding: 20px;
+    background-color:#eeecec;
+}
+.MyBookings{
+    background-color:rgb(161, 204, 241);
+    height: 100vh;
+}
+.booking{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.book1{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.book2{
+    width: 50%;
+}
+.book1 input{
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+}
+.book2 input{
+    width: 80%;
+    margin-left: 18%;
+    height: 35px;
+    border-radius: 10px;
+}
+.book1 button{
+    padding: 13px;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+}
+.events{
+    margin: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.events h3{
+    color: black;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+.past{
+    margin-left: 30px;
+}
+.border{
+    border-top: 3px solid black;
+}
+.upcoming-events{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.upcoming-events{
+    display: flex;
+}
+.upcoming-events img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20%;
+}
+.evenButtons {
+    display: flex;
+    justify-content: space-between;
+}
+.upcominDetails{
+    margin-left: 15%;
+}
+@media (max-width:600px) {
+    .booking{
+        display: flex;
+        flex-direction: column;
+    }
+    .book2 input{
+        width: 180%;
+        margin-left: 17px;
+    }
+    .book1 input{
+        width: 80%;
+        margin-left: 10px;
+    }
+    .book1 button{
+    }
+    .book1{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .upcominDetails{
+        margin-left: 0%;
+    }
+    .upcoming-events img{
+        margin-left: 0%;
+    }
+}

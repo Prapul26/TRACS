@@ -1,0 +1,34 @@
+.addEmail-holder{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:#eeecec;
+}
+.addEmail-holder input{
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.addEmail-holder label{
+    margin-top: 20px;
+    font-style: oblique;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.addEmail-holder textarea{
+    margin-top: 20px;
+    height: 100px;
+    width: 80%;
+}
+.addEmail-holder button{
+margin-top: 20px;
+padding: 13px;
+background-color: orange;
+color: white;
+}
+.addEmail-container{
+    background-color:rgb(161, 204, 241);
+    height: 100vh;
+}

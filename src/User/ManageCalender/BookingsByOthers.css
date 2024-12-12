@@ -1,0 +1,19 @@
+.bookOthers{
+    margin: 20px;
+    padding: 20px;
+    background-color:#eeecec;
+}
+.bookOtherNav{
+display: flex;
+padding: 20px;
+border-bottom: 1px solid black;
+
+}
+.paevents{
+    margin-left: 30px;
+    
+}
+.ult{
+    background-color:rgb(161, 204, 241);
+    height: 100vh;
+}
