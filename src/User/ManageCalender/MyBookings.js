@@ -27,7 +27,7 @@ const MyBookings = () => {
                 <div className='profileNav'>
                     <div className='proh3'><h3>My Bookings</h3></div>
                     <div className='Hedh3'>
-                        <Link to='/home'><h3>Home</h3></Link> <span>.</span><Link to='/myMembership'><h3>Dashboard</h3></Link><span>.</span><Link to='/profile'><h3>My Bookings</h3></Link>
+                        <Link to='/home'><h3>Home</h3></Link> <span>.</span><Link to='/myMembership'><h3>Dashboard</h3></Link><span>.</span><Link to='/myBookings'><h3>My Bookings</h3></Link>
                     </div>
                 </div>
                 <div className='booking'>

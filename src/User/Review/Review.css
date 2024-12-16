@@ -1,0 +1,31 @@
+.Review-Holder{
+    display: flex;
+}
+.visitors-review{
+width: 50%;
+text-align: center;
+padding: 25px;
+margin: 20px;
+background-color: rgb(239, 244, 249);
+
+}
+.my-review{
+    width: 50%;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(239, 244, 249);
+
+    margin: 20px;
+}
+@media(max-width:600px){
+    .Review-Holder{
+        flex-direction: column;
+    }
+    .visitors-review{
+width:80%;
+
+    }
+    .my-review{
+        width:80%;
+    }
+}

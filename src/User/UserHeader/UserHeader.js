@@ -56,8 +56,8 @@ showNav(!nav);
        <Link to='/setupCalender'><h3>Setup TRACS Calender</h3></Link> 
       </div>
     }
-    <div className='nav10'><h3>Reviews</h3></div>
-    <div className='nav11'><h3>Logout</h3></div>
+    <div className='nav10'><Link to='/reviews'><h3>Reviews</h3></Link></div>
+    <div className='nav11'><Link to='/'><h3>Logout</h3></Link></div>
 </div>
             </div>
         }

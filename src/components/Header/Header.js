@@ -73,10 +73,10 @@ const Header = () => {
           <div className='dropdown2'>
             <ul style={{ listStyle: "none" }}>
               <Link to='/myMembership'><li>My Profile</li></Link>
-              <li>Manage Calendar</li>
-              <li>My Notes</li>
-              <li>Messages</li>
-              <li style={{ border: "none" }}>logout</li>
+            <Link to='/myBookings'> <li>Manage Calendar</li></Link> 
+             <Link to='/myNotes'><li>My Notes</li></Link> 
+             <Link to='/sentMail'> <li>Messages</li></Link>
+             <Link to='/'><li style={{ border: "none" }}>logout</li></Link> 
             </ul>
           </div>
         )}

@@ -44,6 +44,7 @@ import SentMails from './User/Messages/SentMail';
 import BookingsByOther from './User/ManageCalender/BookingsByOther';
 import MyBookings from './User/ManageCalender/MyBookings';
 import SetupCalender from './User/ManageCalender/SetupCalender';
+import Review from './User/Review/Review';
 
 
 
@@ -94,7 +95,8 @@ const App = () => {
         <Route path='/bookingsByOthers' element={<BookingsByOther/>} />
         <Route path='/myBookings' element={<MyBookings/>}/>
         <Route path='/setupCalender' element={<SetupCalender/>}/>
-
+<Route path='/reviews' element={<Review/>} />
+<Route path='/' element={<Login/>}/>
       </Routes>
     </Router>
   );
