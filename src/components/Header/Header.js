@@ -96,23 +96,23 @@ const Header = () => {
         {info && (
           <div className='infoPage'>
             <div className='cross-holder'>
-              <div>My profile</div>
+              <div > <Link to='/myMembership'><p style={{position:"absolute",marginTop:"0px",color:'blue'}}>My profile</p></Link></div>
               <div className='cx' onClick={() => setInfo(false)}><RxCross2 size={25} /></div>
             </div>
             <div className='home-holder'>
-              <div className='home'><p><Link to='/home'>HOME</Link></p></div>
+              <div className='home'><p ><Link to='/home'style={{color:"blue"}}>HOME</Link></p></div>
             </div>
             <div className='members-holder'>
-              <div className='members'><p><Link to='/members'>MEMBERS</Link></p></div>
+              <div className='members'><p><Link to='/members'style={{color:"blue"}}>MEMBERS</Link></p></div>
             </div>
             <div className='events-holder'>
-              <div className='events'><p><Link to='/events'>EVENTS</Link></p></div>
+              <div className='events1' ><p style={{marginTop:"0px"}}><Link to='/events'style={{color:"blue"}} >EVENTS</Link></p></div>
             </div>
             <div className='Referral-holder'>
-              <div className='referral'><p><span style={{ marginTop: "15px" }}><Link to='/referral'>REFERRAL SUPPORT</Link></span></p></div>
+              <div className='referral'><p><span style={{ marginTop: "15px" }}><Link to='/referral'style={{color:"blue"}}>REFERRAL SUPPORT</Link></span></p></div>
             </div>
             <div className='About-us-holder'>
-              <div className='about'><p>ABOUT US</p></div>
+              <div className='about'><p style={{color:"blue"}}>ABOUT US</p></div>
               <div className='aa' onClick={showAbout}>
                 {about ? <IoIosArrowDown /> : <IoIosArrowForward />}
               </div>
@@ -125,24 +125,24 @@ const Header = () => {
               )}
             </div>
             <div className='pricing-holder2'>
-              <div className='pricing2'><p><Link to='/pricing'>PRICING</Link></p></div>
+              <div className='pricing2'><p><Link to='/pricing'style={{color:"blue"}}>PRICING</Link></p></div>
             </div>
             <div className='resouces-holder'>
-              <div className='resources'><p>RESOURCES</p></div>
+              <div className='resources'><p style={{color:"blue"}}>RESOURCES</p></div>
               <div className='ra' onClick={showResources}>
                 {resources ? <IoIosArrowDown /> : <IoIosArrowForward />}
               </div>
               {resources && (
                 <div className='rd'>
-                  <p>blog</p>
-                  <p>Training</p>
-                  <p>Help</p>
+                 <Link to="/blog"><p>blog</p></Link> 
+                 <Link to="/training"> <p>Training</p></Link>
+                 <Link to="/help"><p>Help</p></Link> 
                 </div>
               )}
             </div>
             <div className='buttons-holder'>
-              <div className='login-button'><button>Login</button></div>
-              <div className='reg-button'><button>Register</button></div>
+              <div className='login-button'><Link to='/'><button>Login</button></Link></div>
+              <div className='reg-button'><Link to='/register'><button>Register</button></Link></div>
             </div>
             <div className='social2-media-holder'>
               <div className='sd'>

@@ -242,6 +242,9 @@ color:blue;
 
     height: 25px;
   }
+  .cross-holder{
+    display: flex;
+  }
 
   .members-holder {
     padding: 10px;
