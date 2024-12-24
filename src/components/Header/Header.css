@@ -409,7 +409,11 @@ color:blue;
     margin: 0px;
     border-radius: 100px;
   }
-
+  .cross-holder p{
+    margin-top: 4px;
+    font-size: larger;
+    color: black;
+  }
   .header-container {
     background-color: white;
     display: math;
