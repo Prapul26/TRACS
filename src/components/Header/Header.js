@@ -142,7 +142,7 @@ const Header = () => {
             </div>
             <div className='buttons-holder'>
               <div className='login-button'><Link to='/'><button>Login</button></Link></div>
-              <div className='reg-button'><Link to='/register'><button>Register</button></Link></div>
+           <Link to='/register'>   <div className='reg-button'><button>Register</button></div></Link>
             </div>
             <div className='social2-media-holder'>
               <div className='sd'>
