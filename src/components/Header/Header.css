@@ -257,6 +257,22 @@ color:blue;
     border-bottom:1px solid rgba(0, 0, 0, .1);
     height: 25px;
   }
+  
+  .pricing-holder2 {
+    padding: 10px;
+    border-bottom:1px solid rgba(0, 0, 0, .1);
+    height: 25px;
+    
+  }
+  .cross-holder p{
+    margin-top: 4px;
+    font-size: larger;
+    color: black;
+  }
+  .pricing-holder2 p{
+    margin-top: 3px;
+  }
+
 
   .Referral-holder {
     padding: 10px;

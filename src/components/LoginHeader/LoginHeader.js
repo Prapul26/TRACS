@@ -98,7 +98,7 @@ const LoginHeader = () => {
                       {info && (
                         <div className='infoPage'>
                           <div className='cross-holder'>
-                            <div > <Link to='/myMembership'><p style={{position:"absolute",marginTop:"0px",color:'blue'}}>My profile</p></Link></div>
+                            <div > <Link to='/myMembership'><p style={{position:"absolute",color:'blue'}}>My profile</p></Link></div>
                             <div className='cx' onClick={() => setInfo(false)}><RxCross2 size={25} /></div>
                           </div>
                           <div className='home-holder'>
