@@ -202,12 +202,12 @@ color:blue;
     margin-top: 10px;
   }
 
-  .reg-button {
+  .reg-button2 {
     margin-left: 2%;
     padding: 10px;
   }
 
-  .reg-button button {
+  .reg-button2 button {
     width: 98%;
     height: 35px;
     border-radius: 50px;
@@ -569,24 +569,27 @@ color:blue;
     width: 50%;
   }
 
-  .reg-button {
+  .reg-button2 {
     margin-left: 2%;
     padding: 10px;
+
     width: 50%;
   }
 
   .login-button button:hover,
-  .reg-button button:hover {
+  .reg-button2 button:hover {
     color: black;
   }
 
-  .reg-button button {
+  .reg-button2 button {
     width: 98%;
     height: 35px;
     border-radius: 50px;
     background-color: rgb(240, 105, 16);
     color: white;
     font-size: large;
+    align-items: center;
+    justify-content: center;
   }
 
   .social-media-holder {
