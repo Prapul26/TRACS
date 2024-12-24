@@ -1,6 +1,7 @@
 import React from 'react';
 import './LoginNav.css';
 import logo from '../../assets/LOGO.jpg'
+import { Link } from 'react-router-dom';
 const LoginNav = () => {
   return (
     <div className='nav-container'>
@@ -8,12 +9,12 @@ const LoginNav = () => {
         <img src={logo} alt='Logo' />
       </div>
       <ul className='nav-links'>
-        <li><a href='#home'>HOME</a></li>
+       <Link to='/home'><li><a href='#home'>HOME</a></li></Link> 
         
-        <li><a href='#events'>EVENTS</a></li>
-        
-        <li><a href='#about'>ABOUT US</a></li>
-        <li><a href='#pricing'>PRICING</a></li>
+        <Link to='/events'><li><a href='#events'>EVENTS</a></li>
+        </Link>
+       <Link to='/about'><li><a href='#about'>ABOUT US</a></li></Link> 
+       <Link to='/pricing'><li><a href='#pricing'>PRICING</a></li></Link> 
        
       </ul>
     </div>
