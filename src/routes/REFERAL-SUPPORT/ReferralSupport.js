@@ -16,9 +16,7 @@ const ReferralSupport = () => {
     return (
         <div><Header />
             <Navbar />
-            <div className='a_u'>
-                <h1>Referral Support</h1>
-            </div>
+            <div className='ph1'><div className='p1h1'><h1>Referral Support</h1></div></div>
 <div className='refcontainer'>
     <div className='rs1'>
         <select>

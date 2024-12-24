@@ -6,6 +6,7 @@
 .blogContainer{
     width: 70%;
     margin-left: 15%;
+    margin-top: 20px;
     margin-right: 15%;
     margin-bottom: 60px;
 }
@@ -88,8 +89,11 @@ margin-bottom: 20px;
     background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
     margin-top: -20px;
     text-align: center;
-    height: 100px;
+    height: 80px;
     margin-bottom: 40px;
+}
+.nig h1{
+    margin-top: -10;
 }
 .blogHerp h1{
     color: white;

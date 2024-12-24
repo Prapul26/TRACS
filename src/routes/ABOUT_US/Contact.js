@@ -15,9 +15,7 @@ import { IoArrowForward } from "react-icons/io5";
     <div>
       <Header />
       <Navbar />
-      <div className='a_u'>
-                <h1>CONTACT</h1>
-            </div>
+      <div className='ph1'><div className='p1h1'><h1> CONTACT</h1></div></div>
     <div className='contatContainer'>
 <div className='ch'>
   <h1>Contact Here</h1>

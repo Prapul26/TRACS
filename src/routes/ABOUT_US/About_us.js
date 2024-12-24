@@ -11,9 +11,8 @@ const About_us = () => {
     return (
         <div>
             <Header />
-            <Navbar /><div className='a_u'>
-                <h1>ABOUT US</h1>
-            </div>
+            <Navbar />
+            <div className='ph1'><div className='p1h1'><h1>About Us</h1></div></div>
             <div className='About_us-container'>
 
                 <div className='a_1'>

@@ -16,9 +16,7 @@ const Partner = () => {
     <div>
       <Header />
       <Navbar />
-      <div className='a_u'>
-        <h1>PARTNERS</h1>
-      </div>
+      <div className='ph1'><div className='p1h1'><h1>Partners</h1></div></div>
 
       <div className='partnerContainer'>
         <div className='picOne'>

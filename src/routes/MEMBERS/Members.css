@@ -4,9 +4,9 @@
     text-align: center;
 
     padding-top: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
 
 .m_u h1 {
@@ -87,10 +87,10 @@
 }
 .memdata{
     height: fit-content;
-  box-shadow: 3px 6px 30px 8px rgb(102, 101, 101);
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+ border: 1px solid  rgb(102, 101, 101);;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 10px;

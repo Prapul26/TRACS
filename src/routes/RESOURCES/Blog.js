@@ -13,7 +13,7 @@ export const Blog = () => {
     <div>
       <Header />
       <Navbar />
-      <div className='blogHerp'><h1>BLOG</h1></div>
+      <div className='ph1'><div className='p1h1'><h1>Blog</h1></div></div>
       <div className='blogContainer'>
         <div className='blog'>
           <div className='memberBlog' onClick={() => setShowMembers(true)}>
