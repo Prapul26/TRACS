@@ -33,7 +33,7 @@ const Login = ({ switchToRegister }) => {
             if (data.success) {
                 setMessage('Login successful');
                 // Save the token or handle successful login logic here
-                navigate('/memberDetails'); // Redirect to Member Details page
+                navigate('/home'); // Redirect to Member Details page
             } else {
                 setMessage(data.error_msg || 'Login failed');
             }
