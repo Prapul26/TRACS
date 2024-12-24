@@ -5,6 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import aplay from '../../assets/apple.png'
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='footer-container'>
@@ -32,10 +33,10 @@ const Footer = () => {
                         <h1>
                             Important Links
                         </h1>
-                        <p>Home</p>
-                        <p>Pricing</p>
-                        <p>About Us</p>
-                        <p>Blog</p>
+                      <Link to='/home'> <p>Home</p></Link> 
+                      <Link to='/pricing'> <p>Pricing</p></Link> 
+                      <Link to='/aboutUs'><p>About Us</p></Link>  
+                      <Link to='/blog'> <p>Blog</p></Link>
 
                     </div>
                 </div>
