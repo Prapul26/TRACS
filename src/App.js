@@ -45,6 +45,11 @@ import BookingsByOther from './User/ManageCalender/BookingsByOther';
 import MyBookings from './User/ManageCalender/MyBookings';
 import SetupCalender from './User/ManageCalender/SetupCalender';
 import Review from './User/Review/Review';
+import Contacts from './User/Introduction/Contacts';
+import Inbox1 from './User/Introduction/Inbox1';
+import MakeIntro from './User/Introduction/MakeIntro';
+import EmailTemplates from './User/Introduction/EmailTemplates';
+import AddContact from './User/Introduction/AddContact';
 
 
 
@@ -97,6 +102,11 @@ const App = () => {
         <Route path='/setupCalender' element={<SetupCalender/>}/>
 <Route path='/reviews' element={<Review/>} />
 <Route path='/' element={<Login/>}/>
+<Route path='/contacts' element={<Contacts/>}/>
+<Route path='/inbox1' element={<Inbox1/>}/>
+<Route path='/emailTemp' element={<EmailTemplates/>}/>
+<Route path='/makeIntro' element={<MakeIntro/>}/>
+<Route path='/addContacts' element={<AddContact/>}/>
       </Routes>
     </Router>
   );

@@ -43,6 +43,15 @@
    display: flex;
    flex-direction: column;
 }
+.navIntro{
+    border-bottom: 1px solid rgb(149, 146, 146);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.introContainer{
+    border-bottom: 1px solid rgb(130, 129, 129);
+}
 .userName h3{
     margin-left: 10px;
     margin-top: 0px;
@@ -92,7 +101,7 @@ position: relative;
     justify-content: space-between;
     padding-right:10px ;
 }
-@media (max-width:600px){
+@media (max-width:432px){
     .userName{
         margin-top: 10px;
         margin-left: 50%;

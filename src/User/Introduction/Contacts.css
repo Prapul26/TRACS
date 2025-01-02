@@ -1,0 +1,31 @@
+.addContacts{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.contactsButton{
+    display: flex;
+}
+.contactsButton button{
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media (max-width:432px){
+    .contactsButton{
+        display: flex;
+        flex-direction: column;
+    }
+    .addCon button{
+        position: absolute;
+        margin-left: -230px;
+        margin-top: -50px;
+    }
+    .contactsTable{
+        width: 100%;
+        overflow: auto;
+    }
+}

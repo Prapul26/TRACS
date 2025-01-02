@@ -7,11 +7,15 @@ import { Link } from 'react-router-dom';
 import { BiSolidUpArrow } from "react-icons/bi";
  const UserHeader = () => {
     const[nav ,showNav]=useState(false);
+    const[intro,showIntro]=useState(false);
     const[messages,showMessages]=useState(false);
     const[notes,showNotes]=useState(false);
     const [bookings,showBookings]=useState(false);
     const handelBookings=()=>{
       showBookings(!bookings)
+    }
+    const handelIntro=()=>{
+      showIntro(!intro);
     }
     const handelMessages=()=>{
       showMessages(!messages);
@@ -38,6 +42,15 @@ showNav(!nav);
 <Link to='/myNotes'><h3>My Notes</h3></Link>
 <Link to='/notesTemplate'><h3>Notes Templates</h3></Link>
       </div>
+   }
+   <div className='navIntro'  style={intro ? { borderBottom: '0px solid black' } : {}} onClick={handelIntro}><h3>Introduction</h3>{intro ?<BiSolidUpArrow color='white'style={{marginTop:"22px"}} />:<BiSolidDownArrow Arrow color='white' style={{ marginTop: "22px" }} />}</div>
+   {
+    intro && <div className='introContainer'>
+<Link to='/contacts'><h3>Contacts</h3></Link>
+<Link to='/inbox1'><h3>Inbox</h3></Link>
+<Link to='/makeIntro'><h3>Make Introduction</h3></Link>
+<Link to='/emailTemp'><h3>Email Templates</h3></Link>
+    </div>
    }
   <Link to='/referralSupportNav'> <div  className='nav5'><h3>Referral Support</h3></div></Link> 
     <div className='nav6'><Link to='/myBlog'><h3>My Blog</h3></Link></div> 
